@@ -1,0 +1,168 @@
+body{
+	background-color: grey !important;
+}
+body li{
+   font-size: 0.9rem;
+}
+.hidden{
+	padding-bottom: 98px !important;
+
+ }
+.navbar{
+	padding-right: 30px; padding-left: 30px;
+}
+.navbar-brand img{
+	width: 100px;
+	height: 100px;
+}
+.active	{
+	color: white !important;
+	background-color: lightgrey !important;
+}
+.slider-home {
+	padding-top: 115px; 
+	background-color: transparent;
+	opacity: 1;
+}
+.head-1 {
+	background-image:url("./image/slider2-2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.head-content {
+	padding: 10px;
+	color: white;
+	text-align: center;
+	border: 3px solid black; 
+	top: 35%;
+	left: 35%;
+	margin: 0;
+	margin-right: 50%;
+	position: absolute;
+	width: 30%;
+
+}
+.head-content h3{
+	font-family: serif;
+	font-size: 50px;
+	color: #FF0000;
+	text-shadow: 8px 6px #0B0B61;
+}
+.head-content p{
+	font-family: serif;
+	font-size: 20px;
+}
+.section-contact{
+	padding-top: 115px; 
+	height: 100vh;
+	background-image:url("./image/skyline.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imgSec{
+
+    font-family: serif;
+    font-style: oblique;
+}
+.imgSec label{
+	margin-top: 10px;
+	background-color: lightgrey !important
+    /*width:250px !important;*/
+}
+.borderWidth{
+	width: 280px;
+	padding-left:3px;
+}
+.msgForm{
+	width: 85%;
+	padding-left: 30%;
+}
+.msgForm label{
+	background-color: lightgrey !important
+
+
+}
+.form-group label{
+	border: 2px solid black; 
+	width: 100%;
+}
+.form-control{
+	background-color: transparent !important;
+	color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+	.head-1{
+		height:528px !important;
+		width:1141px !important;
+	}
+	
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.head-1{
+		height:528px !important;
+		width:1141px !important;
+	}
+	
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.head-1{
+		height:528px !important;
+		width:1141px !important;
+	}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.head-1{
+		height:528px !important;
+		width:1141px !important;
+	}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.head-1{
+		height:528px !important;
+		width:1141px !important;
+	}
+}
+::placeholder{
+	color: red !important;
+	opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: red;
+}

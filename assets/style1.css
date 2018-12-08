@@ -1,0 +1,53 @@
+body{
+	background-color: green !important;
+}
+body li{
+   font-size: 0.9rem;
+}
+.hidden{
+	padding-bottom: 98px !important;
+
+ }
+.navbar{
+	padding-right: 30px; padding-left: 30px;
+}
+.navbar-brand img{
+	width: 100px;
+	height: 100px;	
+}
+
+.active	{
+	background-color: grey !important;
+}
+.section-home{
+	height:82vh !important;
+	width: 100%;
+	margin: 0;
+	padding-left:15px;
+	background-image: url("./image/techcicuit2.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+}
+.info-home{
+	height: 82vh;
+	color: black;
+	text-align: center;
+	font-family: serif;
+	font-size: 30px
+}
+
+.image-overlay{
+	background-color: grey;
+	opacity: 0.7;
+}
+.carousel .slide .d-block{
+	height: 100% !important;
+	width: 100% !important;
+}
+.slider-home{
+	/*padding-left: 0 !important;*/
+	padding-top: 110px; 
+	background-color: transparent;
+	opacity: 1;
+}
